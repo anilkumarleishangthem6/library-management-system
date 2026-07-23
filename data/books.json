@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "name": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "price": "12.99",
+      "publisher": "Houghton Mifflin"
+    },
+    {
+      "id": "2",
+      "name": "The Land Before Time",
+      "author": "Alan Moore",
+      "genre": "Fantasy",
+      "price": "12.99",
+      "publisher": "Houghton Mifflin"
+    },
+    {
+      "id": "3",
+      "name": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "price": "9.99",
+      "publisher": "Secker & Warburg"
+    },
+    {
+      "id": "4",
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Classic",
+      "price": "14.99",
+      "publisher": "J.B. Lippincott & Co."
+    },
+    {
+      "id": "5",
+      "name": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "price": "15.50",
+      "publisher": "Chilton Books"
+    }
+  ]
+}
