@@ -1,4 +1,9 @@
 const express = require("express");
+// const {users} = require('./data/users.json')
+
+//importing the routes
+const usersRouter= require("./routes/users");
+const booksRouter= require("./routes/books");
 
 const app = express();
 
@@ -11,6 +16,12 @@ app.get("/",(req, res) =>{
     message:"Home Page :)"
   })
 })
+
+app.use("/users", usersRouter);
+app.use("/books", booksRouter);
+
+
+
 
 // app.all('*', (req,res)=>{
 //   res.status(500).json({
