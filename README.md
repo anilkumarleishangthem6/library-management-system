@@ -56,9 +56,6 @@ npm i mongoose
 npm install mongodb
 
 
-mongodb+srv://<db_username>:<db_password>@cluster0.yfdoqko.mongodb.net/?appName=Cluster0
-mongodb+srv://anilkumarleishangthem6_db_user:TDES6YIvouDt9vxB@cluster0.yfdoqko.mongodb.net/?appName=Cluster0
-
 
 npm i dotenv
 
